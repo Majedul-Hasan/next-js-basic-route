@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 
 const Home = ()=> {
@@ -38,6 +40,19 @@ const Home = ()=> {
          </Link>
        </li>
     </ul>
+    <Image 
+      src="/images/image_one.jpg" 
+      alt="Picture about a horse"
+      layout="responsive"
+      width={6016} 
+      height={4016} 
+
+
+      />
+
+
+
+    {/*<img src="/images/image_one.jpg" width='800px' />*/}
     
     </>
   )
